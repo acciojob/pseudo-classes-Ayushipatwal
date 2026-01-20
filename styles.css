@@ -6,10 +6,7 @@
 h3{
 color:white;
 background-color:black}
-div p:first-child {
-  color: white;
-  background-color: black;
-}
+
 
 div p:nth-child(2) {
   color: black;
@@ -19,25 +16,25 @@ div p:last-child {
   color: red;
 }
 
-/* List items */
+
 ul li {
   background-color: gray;
   width: 50%;
   padding: 10px;
 }
 
-/* Odd items white background */
+
 ul li:nth-child(odd) {
   background-color: white;
 }
 
-/* First and last item font size */
+
 ul li:first-child,
 ul li:last-child {
   font-size: 22px;
 }
 
-/* Third-to-last item */
+
 ul li:nth-last-child(3) {
   background-color: pink;
 }
